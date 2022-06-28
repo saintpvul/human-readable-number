@@ -36,7 +36,7 @@ module.exports = function toReadable(number) {
         80: "eighty",
         90: "ninety",
     };
-
+    // solution
     if (number > 0 && 10 > number) {
         return ones[number];
     } else if (number >= 10 && number < 20) {
